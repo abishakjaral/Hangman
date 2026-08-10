@@ -43,7 +43,7 @@ def hangman():
 
     #get here when len(word_letters) == 0 OR when lives == 0
     if lives == 0:
-        print('You die, sorry. The word was', word)
+        print('You die,sorry. The word was', word)
     else:
         print('YAY! You guessed the word', word, '!!')
 
